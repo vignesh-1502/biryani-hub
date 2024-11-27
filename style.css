@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#out{
+    border: solid 1px;
+    height: 630px;
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 630px;
+    
+}
+h1{
+    color: black;
+    font-size: 60px;
+    margin-top: 90px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+#Register,#Login
+{
+    height: 35px;
+    width: 90px;
+    background-color:rgb(216, 217, 228) ;
+    border-radius: 10px;
+
+}
+#Register{
+    margin-left: 100px;
+}
+#Register a ,#Login a {
+    color: rgb(167, 17, 17);
+    font-size: 20px;
+    text-decoration: none;
+}
+#Register:hover, #Login:hover{
+background-color: yellow;
+}
